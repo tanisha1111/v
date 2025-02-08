@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations!</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            color: white;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            backdrop-filter: blur(10px);
+            animation: popUp 1.5s ease-in-out;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        }
+        p {
+            font-size: 1.5em;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes popUp {
+            0% { transform: scale(0.5); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .heart {
+            position: absolute;
+            animation: float 4s infinite ease-in-out;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        .valentine-img {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 20px;
+    animation: float 4s infinite ease-in-out;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Congratulations Cutuuuu!🎉</h1>
+    <p>You've taken a very good decision! 💕</p>
+    <p>You've made me the happiest person</p>
+    <h3>LOVE YOUUU❤️❤️❤️</h3>
+    </div>
+    <img src="v.png" alt="Happy Tanisha" class="valentine-img">
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
